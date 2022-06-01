@@ -26,7 +26,8 @@ a {
 /*=======================HOME=============================*/
 #home {
   display: grid;
-
+  position: relative;
+  width: 100%;
   background: var(--purple-bg);
 }
 
@@ -47,8 +48,10 @@ a {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 1.4rem;
-  line-height: 1.6rem;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+
+  color: var(--white);
 }
 
 #home .nav ul {
@@ -115,7 +118,7 @@ a {
   height: 2.4rem;
 }
 
-#home .menuContent .firstDivMain p{
+#home .menuContent .firstDivMain p {
   margin-top: 1.6rem;
   margin-bottom: 2.4rem;
 }
