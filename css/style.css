@@ -211,8 +211,9 @@ a {
 }
 
 #home .menuContent .secondDivMain img {
-  width: 57rem;
-  height: 34.6rem;
+  width: 100%;
+  max-width: 80%;
+  height: auto;
 
   border-radius: 0.8rem;
 }
@@ -277,8 +278,9 @@ a {
 }
 
 #informations .twoDivs img {
-  width: 56.9rem;
-  height: 34.243rem;
+  width: 100%;
+  max-width: 57rem;
+  height: auto;
   left: 13.6rem;
   top: 65.2rem;
 
@@ -299,6 +301,7 @@ a {
 }
 
 #informations .threeDivsNearFooter img {
-  width: 37rem;
-  height: 25.957rem;
+  max-width: 37rem;
+  width: 100%;
+  height: auto;
 }
